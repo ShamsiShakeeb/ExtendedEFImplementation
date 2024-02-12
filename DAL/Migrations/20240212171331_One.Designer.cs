@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(PersonDBContext))]
-    [Migration("20240211193054_Test")]
-    partial class Test
+    [Migration("20240212171331_One")]
+    partial class One
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,6 +32,23 @@ namespace DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.ToTable("CgpaHistory", (string)null);
+                });
+
+            modelBuilder.Entity("DAL.Model.Course", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("CourseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("DAL.Model.Student", b =>

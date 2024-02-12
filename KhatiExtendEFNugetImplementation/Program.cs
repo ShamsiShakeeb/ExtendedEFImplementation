@@ -1,11 +1,16 @@
 using DAL;
 using KhatiExtendedEF.Resolver;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.ExtendedEF<PersonDBContext>();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+          .AddEntityFrameworkStores<PersonDBContext>()
+          .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
