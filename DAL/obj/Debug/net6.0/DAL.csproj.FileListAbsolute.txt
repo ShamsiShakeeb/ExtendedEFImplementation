@@ -1,5 +1,4 @@
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\bin\Debug\net6.0\DAL.deps.json
-C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\bin\Debug\net6.0\DAL.dll
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\bin\Debug\net6.0\DAL.pdb
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
@@ -10,5 +9,4 @@ C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\DAL.dll
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\refint\DAL.dll
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\DAL.pdb
-C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
 C:\Users\BS483\source\repos\KhatiExtendEFNugetImplementation\DAL\obj\Debug\net6.0\ref\DAL.dll

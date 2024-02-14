@@ -28,8 +28,12 @@ namespace KhatiExtendEFNugetImplementation.Controllers
                 return res;
             });
             var get = await _studentRepo.GetListAsync();
-
-            return Ok(get);
+            var paginate = await _studentRepo.GetPagination(x => true, 1, 1);
+            return Ok(new
+            {
+                all = get,
+                paginate = paginate
+            });
         }
 
         public IActionResult Privacy()
